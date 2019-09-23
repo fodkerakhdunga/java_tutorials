@@ -69,3 +69,15 @@ BoxWeight(double w, double h, double d, double m){
   weight = m;
 }
 }
+
+// Here, Box is extended to include color.
+class ColorBox extends Box{
+  int color; // color of the box
+
+  ColorBox(double w, double h, double d, int c){
+    width = w;
+    height = h;
+    depth = d;
+    color = c;
+  }
+}
